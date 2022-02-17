@@ -9,9 +9,8 @@ import javax.persistence.Id;
 @Entity
 public class County {
 
-  //primer Key
   @Id
-  @Column(name = "countycode")
+  @Column(name="countycode")
   private String countyCode;
   private String name;
   private String href;
