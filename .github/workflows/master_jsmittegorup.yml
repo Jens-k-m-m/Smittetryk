@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'jSmittegorup'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_82AD91F9C8C34BE68946341465B9DD45 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CE94C421C96B4302BC588434BB7DB674 }}
           package: '*.jar'
